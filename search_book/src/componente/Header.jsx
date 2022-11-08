@@ -79,6 +79,13 @@ export default function header() {
           <a class="nav-link" href="#"> <Link to="/Inbox" style={{color:"white", textDecoration:"none"}}>Inbox</Link></a>
         </li>
        
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <Link to="/Library" style={{color:"white", textDecoration:"none"}}>library</Link></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <Link to="/Fetch" style={{color:"white", textDecoration:"none"}}>Fetch</Link></a>
+        </li>
       
       </ul>
       

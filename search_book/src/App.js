@@ -15,6 +15,9 @@ import Loginform from './componente/Loginform';
 import ColorPage from './componente/ColorPage';
 import Effect from './componente/Effect';
 import Inbox from "./componente/Inbox.1";
+import Library from "./componente/Library";
+import Fetch from "./componente/Fetch";
+
 
 
 
@@ -55,7 +58,11 @@ export default function App() {
           <Route exact element={<Loginform />} path="/Loginform" />
           <Route exact element={<Effect />} path="/Effect" />
           <Route exact element={<Inbox />} path="/Inbox" />
+          <Route exact element={<Library />} path="/Library" />
+          <Route exact element={<Fetch />} path="/Fetch" />
 
+
+         
 
 
 
